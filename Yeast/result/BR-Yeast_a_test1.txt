@@ -1,0 +1,39 @@
+== Predictive Performance
+
+Number of test instances (N)
+Accuracy                       0.42
+Jaccard index                  0.42
+Hamming score                  0.737
+Exact match                    0.057
+Jaccard distance               0.58
+Hamming loss                   0.263
+ZeroOne loss                   0.943
+Harmonic score                 0.625
+One error                      0.489
+Rank loss                      0.311
+Avg precision                  0.562
+Log Loss (lim. L)              0.668
+Log Loss (lim. D)              1.319
+F1 (micro averaged)            0.565
+F1 (macro averaged by example) 0.543
+F1 (macro averaged by label)   0.395
+AUPRC (macro averaged)         0.357
+AUROC (macro averaged)         0.592
+Curve Data
+Macro Curve Data
+Micro Curve Data
+
+
+== Additional Measurements
+
+Number of training instances   1611
+Number of test instances       806
+Label cardinality (train set)  4.243
+Label cardinality (test set)   4.226
+Build Time                     2.719
+Test Time                      0.031
+Total Time                     2.75
+
+
+
+Predictions saved to: prediction/BR-Yeast_a_test1.arff
